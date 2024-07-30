@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+
+input[type="button"] {
+  background-color: gray;
+  color: white;
+  width: 5%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.15s;
+}
+
+input[type="button"]:active {
+  opacity: 0.8;
+}
+
+input[type="text"] {
+  background-color: black;
+  color: white;
+  width: 19%;
+  font-size: 25px;
+  padding: 10px;
+  border: none;
+  text-align: right;
+}
+
+.zero-button {
+  width: 10.3% !important;
+}
+
+.top-row-buttons {
+  background-color: lightgray !important;
+  color: black !important;
+}
+
+.operation-button {
+  background-color: orange !important;
+}
+
+.top-row, .second-row, .third-row, .fourth-row {
+  padding-bottom: 10px;
+}
